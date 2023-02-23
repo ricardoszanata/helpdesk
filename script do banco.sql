@@ -32,8 +32,8 @@ create table usuarios(
 create table chamados(
 	chaid int primary key auto_increment,
 	chadataabertura timestamp default current_timestamp,
-	chadataprevisao timestamp,
-	chadatafinalizacao timestamp,
+	chadataprevisao datetime,
+	chadatafinalizacao datetime,
 	charespcolid int,
 	chasolicolid int,
 	chaexeccolid int,
